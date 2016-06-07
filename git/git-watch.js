@@ -4,6 +4,10 @@
  * 
  * To run the script as a background job execute the following line:
  * # node git-watch &
+ * 
+ * To run the script as a one time check within n minutes.
+ * #node git-watch 5
+ * 
  */
 var exec = require('child_process').exec;
 
@@ -11,7 +15,7 @@ var exec = require('child_process').exec;
 var date = new Date();
 
 // Git command constants
-const GIT_GIT = 'git fetch | git log ';
+const GIT_GIT = 'git fetch | wait; git log ';
 const GIT_BRANCH = 'origin/master ';
 const GIT_FORMAT = '--color  --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit ';
 const GIT_ALL = '--all ';
@@ -24,10 +28,14 @@ function display(error, stdout, stderr) {
 }
 
 // Run the git log command to see if anything has changed.
-var runGitWatch = function() {
+var runGitWatch = function(minute) {
+
+	var currentDate = new Date();
 
 	// Log when checking git for changes.
-	console.log('\n\033[31mRunning GitWatch:\033[0m');
+	console.log('\n\033[31mRunning GitWatch...\033[0m');
+
+	if (minute) date.setMinutes(date.getMinutes() - minute);
 
 	// Git required ISO date format.
 	var strDate = date.toISOString();
@@ -50,8 +58,15 @@ var runGitWatch = function() {
 // Check git every n minutes.
 var minutes = 5 * 60 * 1000;
 
-// Continuous loop
-setInterval(function() {
-	runGitWatch();
-}, minutes);
+if (process.argv.length == 2) {
 
+	// Continuous loop
+	setInterval(function() {
+		runGitWatch();
+	}, minutes);
+
+} else {
+
+	runGitWatch(process.argv[2]);
+
+}
