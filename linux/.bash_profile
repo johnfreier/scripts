@@ -26,6 +26,7 @@ alias tomcat='cd /usr/local/developer/tomcat/apache-tomcat-8.0.20'
 
 # Helper Functions
 findme() { find ./ -type f -iname $1; }
+del() { mv $1 $TMPDIR; };
 
 ##
 # Your previous /Users/john/.bash_profile file was backed up as /Users/john/.bash_profile.macports-saved_2014-06-18_at_17:18:33
