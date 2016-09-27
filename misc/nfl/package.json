@@ -1,0 +1,15 @@
+{
+	"name": "nfl.js",
+	"version": "0.0.1",
+	"bin": {
+		"nfl": "./nfl.js"
+	},
+	"scripts": {
+		"nfl": "node ./nfl.js"
+	},
+	"dependencies": {
+		"request": "2.75.0",
+		"xml2js": "0.4.17",
+		"promise": "7.1.1"
+	}
+}
