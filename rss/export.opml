@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+	<head>
+		<title>Sage OPML Export</title>
+	</head>
+	<body>
+		<outline text="Sage Feeds">
+			<outline type="rss" text="FishEye on /" title="FishEye on /" xmlUrl="http://prcbwb10.capella.edu:8060/project/MOBILE?projectKey=MOBILE&amp;view=all&amp;max=30&amp;FEAUTH=jfreier%3A139%3A2fd42477598cc50c59c651206e0b5231&amp;RSS=true"/>
+			<outline type="rss" text="BBC News - Home" title="BBC News - Home" xmlUrl="http://news.bbc.co.uk/rss/newsonline_world_edition/front_page/rss091.xml"/>
+			<outline type="rss" text="South Metro" title="South Metro" xmlUrl="http://www.startribune.com/local/south/index.rss2"/>
+			<outline type="rss" text="StarTribune.com | Local News" title="StarTribune.com | Local News" xmlUrl="http://www.startribune.com/local/index.rss2"/>
+			<outline type="rss" text="Minneapolis" title="Minneapolis" xmlUrl="http://www.startribune.com/local/minneapolis/index.rss2"/>
+			<outline type="rss" text="Mashable" title="Mashable" xmlUrl="http://feeds.mashable.com/mashable"/>
+			<outline type="rss" text="Slashdot" title="Slashdot" xmlUrl="http://rss.slashdot.org/Slashdot/slashdot"/>
+			<outline type="rss" text="Lifehacker" title="Lifehacker" xmlUrl="http://feeds.gawker.com/lifehacker/full"/>
+			<outline type="rss" text="Kotaku" title="Kotaku" xmlUrl="http://feeds.gawker.com/kotaku/full"/>
+			<outline type="rss" text="Engadget RSS Feed" title="Engadget RSS Feed" xmlUrl="http://www.engadget.com/rss.xml"/>
+			<outline type="rss" text="Woot" title="Woot" xmlUrl="http://www.woot.com/Blog/Feed.ashx"/>
+			<outline type="rss" text="Gizmodo" title="Gizmodo" xmlUrl="http://feeds.gawker.com/gizmodo/full"/>
+			<outline type="rss" text="How-To Geek" title="How-To Geek" xmlUrl="http://feeds.howtogeek.com/howtogeek"/>
+			<outline type="rss" text="Community Deals" title="Community Deals" xmlUrl="http://deals.woot.com/deals.rss?page=1"/>
+			<outline type="rss" text="Community Deals" title="Community Deals" xmlUrl="http://deals.woot.com/deals.rss/fresh?page=1"/>
+			<outline type="rss" text="Garfield" title="Garfield" xmlUrl="http://www.hoodcomputing.com/garfield.php"/>
+			<outline type="rss" text="Dilbert Daily Strip" title="Dilbert Daily Strip" xmlUrl="http://feeds.feedburner.com/DilbertDailyStrip"/>
+			<outline type="rss" text="Agent-X comics" title="Agent-X comics" xmlUrl="http://feeds.feedburner.com/Agent-xComics"/>
+			<outline type="rss" text="xkcd.com" title="xkcd.com" xmlUrl="http://xkcd.com/rss.xml"/>
+			<outline type="rss" text="Slickdeals Frontpage RSS Feed" title="Slickdeals Frontpage RSS Feed" xmlUrl="http://feeds.feedburner.com/SlickdealsnetFP"/>
+			<outline type="rss" text="craigslist minneapolis | video gaming - by owner search" title="craigslist minneapolis | video gaming - by owner search" xmlUrl="http://minneapolis.craigslist.org/vgm/index.rss"/>
+			<outline type="rss" text="NFL.com" title="NFL.com" xmlUrl="http://www.nfl.com/rss/rsslanding?searchString=home"/>
+			<outline type="rss" text="NFL.com" title="NFL.com" xmlUrl="http://www.nfl.com/rss/rsslanding?searchString=team&amp;abbr=MIN"/>
+			<outline type="rss" text="HowToBeADad.com" title="HowToBeADad.com" xmlUrl="http://feeds.feedburner.com/howtobeadad/xsKt?format=xml"/>
+			<outline type="rss" text="IndieGames.com" title="IndieGames.com" xmlUrl="http://feeds2.feedburner.com/IndependentGaming"/>
+		</outline>
+	</body>
+</opml>
